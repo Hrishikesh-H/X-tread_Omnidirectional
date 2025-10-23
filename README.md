@@ -26,7 +26,9 @@ The X-Treads project explores whether **tread modules arranged in an X-shape** c
 - **Tread Lifting:**  
   - Implemented using **servo motors and fishing line mechanisms**.  
   - Redundant treads lifted during diagonal motion to reduce drag.  
-- **Chassis Design:** Fabricated lightweight frame to mount electronics and treads.  
+- **Chassis Design:** Fabricated lightweight frame to mount electronics and treads.
+
+  ![Trad](Tread.png)
 
 ## Electronics & Control
 - **Raspberry Pi**: High-level controller running a **Pygame-based GUI** for user commands.  
