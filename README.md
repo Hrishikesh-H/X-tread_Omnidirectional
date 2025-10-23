@@ -35,9 +35,10 @@ The X-Treads project explores whether **tread modules arranged in an X-shape** c
 - **IMU (MPU6050)**: Provided orientation feedback for real-time correction.  
 
 ## Control Architecture
-- **High-Level Controller:**  
+- **High-Level Controller:** and software  
   - User inputs directional commands (8 possible directions).  
-  - Generates open-loop control signals for tread actuation.  
+  - Generates open-loop control signals for tread actuation.
+  - Controller code on rpi5 with imu_data and pygame dashboard: [Controller](controller_imu.py)
 
 - **Low-Level Controller:**  
   - Processes IMU data to correct deviations in direction.  
